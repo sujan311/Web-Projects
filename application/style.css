@@ -1,0 +1,40 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.about-me {
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills {
+    background-color: #33cc33;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portfolio {
+    background-color: #6666ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.color-grid div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color-grid div:hover {
+    background-color: #ccc;
+}
